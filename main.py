@@ -1,7 +1,10 @@
+from operator import truediv
 
 print("Hello World")
 print ("this is a test ")
 print ("testing my python skills")
+
+nameCheck = True
 
 x = 10
 y = 20
@@ -30,3 +33,9 @@ if my_name == "Fernando":
 if my_name == "Fernando":
     print (x)
 
+if my_name == "Fernando":
+    nameCheck = True
+    print ("that is the correct name")
+else:
+    nameCheck = False
+    print ("That is the wrong name")
