@@ -39,3 +39,13 @@ if my_name == "Fernando":
 else:
     nameCheck = False
     print ("That is the wrong name")
+
+
+name = input("Enter your name:")
+print("nice to meet you ", name)
+
+age = int(input("how old are you?"))
+if age >= 18:
+    print("you are an adult.")
+else:
+    print("you are still a child")
