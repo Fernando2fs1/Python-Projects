@@ -17,5 +17,20 @@ def Calculator():
     print ("3  - multiplication")
     print ("4  - division")
 
+    # This take the user's operation choice
+    operationChoice = input("Enter the number for the operation you wish to perform: ")
+
+    if operationChoice == "1":
+        print(f"The result of {a} + {b}  is:  {a + b}")
+
+    elif operationChoice == "2":
+        print(f"The result of {a} - {b} is: {a - b}")
+
+    elif operationChoice == "3":
+        print(f"The result of {a} + {b} is: {a * b}")
+
+    elif operationChoice == "4":
+        print(f"")
+
 
 Calculator()
